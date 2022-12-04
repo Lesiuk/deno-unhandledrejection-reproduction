@@ -1,7 +1,7 @@
 import {delay} from "https://deno.land/std@0.167.0/async/delay.ts";
 
 globalThis.addEventListener("unhandledrejection", (e) => {
-    console.error('unhandledRejection', e);
+    console.error('unhandledRejection');
     e.preventDefault();
 });
 
@@ -10,5 +10,5 @@ globalThis.addEventListener("unhandledrejection", (e) => {
 })();
 
 
-await delay(5_000);
+await delay(2_000);
 console.log('success');
