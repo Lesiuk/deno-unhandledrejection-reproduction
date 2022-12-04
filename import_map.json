@@ -1,0 +1,23 @@
+{
+    "imports": {
+        "std/": "https://deno.land/std@0.165.0/",
+        "oak/": "https://deno.land/x/oak@v11.1.0/",
+
+        "node-html-parser": "npm:node-html-parser",
+        "url-parse": "npm:url-parse",
+        "query-string": "npm:query-string",
+        "qs": "npm:qs",
+        "mem": "npm:mem",
+        "chalk": "npm:chalk",
+        "date-fns": "npm:date-fns",
+        "leaky-bucket": "npm:leaky-bucket",
+        "node-json-db": "npm:node-json-db",
+        "sinon": "npm:sinon",
+        "@sinonjs/referee": "npm:@sinonjs/referee",
+        "async-await-mutex-lock": "npm:async-await-mutex-lock",
+        "strip-ansi": "npm:strip-ansi",
+        "array-uniq": "npm:array-uniq",
+        "oak-cors": "https://deno.land/x/cors/mod.ts"
+    }
+}
+
